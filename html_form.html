@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>HTML Sample Form</h1>
+    <form action = "thankyou.html">
+
+    <label for = "username"><b>Username : </b></label>
+    <input type="text" id = "username" name = 'username' value="username"><br><br>
+    
+    <label for = "password"><b>Password : </b></label>
+    <input type="password" id = "password" name = 'password' value="password"><br><br>
+
+    <label for = "email"><b>Email Id : </b></label>
+    <input type="email" id = "email" name = 'email'><br>
+    <p><b>Select Your Gender</b></p>
+    <label for = 'male'>Male </label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for = 'female'>Female </label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for = 'other'>Other </label>
+    <input type="radio" name="gender" id="other" value="other">
+    <br><br>
+
+    <label for = 'mobile number'><b>Mobile Number : </b></label>
+    <input type="text" id = 'mobile number' placeholder="Your 10 digit phone number" required ><br><br>
+
+    <label for = 'state'><b>State : </b></label>
+    <input type="text" id = 'state' placeholder="Your State Name" required value="state"><br><br>
+
+    <label for = 'city'><b>City : </b></label>
+    <input type="text" id = 'city' placeholder="Your City Name" required value="city"><br><br>
+    <select>
+        <option>Select your age group</option>
+        <option>5-11</option>
+        <option>11-25</option>
+        <option>25-50</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Sign Up">
+    <br><br>
+    <p>Comment below</p>
+    <textarea name = "" id="" cols="50" rows="20" placeholder = "Type your comment here"></textarea>
+</form>
+</body>
+</html>
